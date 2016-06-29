@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>SmHeart App</title>
+<title>Heart</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
@@ -14,10 +14,14 @@
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- Graph CSS -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- Animate CSS -->
+<link href="css/animate.css" rel="stylesheet"> 
 <!-- jQuery -->
 <!-- lined-icons -->
 <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
 <!-- //lined-icons -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+
  <!-- Meters graphs -->
 <script src="js/jquery-1.10.2.min.js"></script>
 
@@ -70,149 +74,95 @@
 			<div id="page-wrapper">
 				<div class="inner-content">
                     <div class="container">
-                        <div class="jp-type-playlist row" id="jp_container_1">
-                            <div class="col-md-4">
-                                	<div class="jp-playlist">
-													<ul style="display: block;">
-                                                        <li ><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">1. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li class="jp-playlist-current"><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">2. Mark-Ronson-Uptown <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">3. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">4. Maroon-Sugar <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">5. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">6. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li>
-                                                        <li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">7. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li></ul>
-												</div>
-                            </div>
-                            <div class="row col-md-8">
+                        <div class="container jp-type-playlist row" id="jp_container_1">
+                            <div class="row col-md-12">
 								<!--/video-main-->
 								 <div class="video-main">
 									<div class="video-record-list">
-										<div id="jp_container_1" class="jp-video" role="application" aria-label="media player">
-											<div class="jp-type-playlist">
-												<div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 480px;"><img id="jp_poster_1" src="video/play2.png" style="width: 480px; height: 480px; display: inline;"><video id="jp_video_1" preload="metadata" src="video/Mark-Ronson-Uptown.webm" title="2. Mark-Ronson-Uptown" style="width: 0px; height: 0px;"></video></div>
-												<div class="jp-gui">
-													<div class="jp-video-play" style="display: block;">
-														<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
-													</div>
-													<div class="jp-interface">
-														<div class="jp-progress">
-															<div class="jp-seek-bar" style="width: 100%;">
-																<div class="jp-play-bar" style="width: 0%;"></div>
-															</div>
-														</div>
-														<div class="jp-current-time" role="timer" aria-label="time">00:00</div>
-														<div class="jp-duration" role="timer" aria-label="duration">00:18</div>
-														<div class="jp-controls-holder">
-															<div class="jp-controls">
-																<button class="jp-previous" role="button" tabindex="0">previous</button>
-																<button class="jp-play" role="button" tabindex="0">play</button>
-															</div>
-															<div class="jp-volume-controls">
-																<button class="jp-mute" role="button" tabindex="0">mute</button>
-																<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
-																<div class="jp-volume-bar">
-																	<div class="jp-volume-bar-value" style="width: 100%;"></div>
-																</div>
-															</div>
-															<div class="jp-toggles">
-															
-																<button class="jp-full-screen" role="button" tabindex="0">full screen</button>
-															</div>
-														</div>
-														<div class="jp-details" style="display: none;">
-															<div class="jp-title" aria-label="title">1. Ellie-Goulding</div>
-														</div>
-													</div>
-												</div>
-											
-												<div class="jp-no-solution" style="display: none;">
-													<span>Update Required</span>
-													To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-												</div>
+										<div id="jp_container_1" role="application" aria-label="media player">
+											Loading the player...
+												
 											</div>
 										</div>
 									</div>
-								</div>
+				            </div>
 								<!-- script for play-list -->
-				        <link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css">
-				        <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+                           
+				       <!--jwplayer-->
+                            <script src="js/jwplayer.js"></script>
+                            <script>jwplayer.key="00hIEz9o5HfoqBWCWY6nMD+BKiDyb/C+YAeMqw==";</script>
 				        <script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
 				        <script type="text/javascript">
-				//<![CDATA[
-				        $(document).ready(function(){
+                            var playlistOne = [{
+"file": "/video/Mark-Ronson-Uptown.mp4", 
+"image": "/video/play2.png", 
+"title": "Mark-Ronson-Uptown"
+}];
 
-					new jPlayerPlaylist({
-						jPlayer: "#jquery_jplayer_1",
-						cssSelectorAncestor: "#jp_container_1"
-					}, [
-						
-						
-						{
-							title:"1. Mark-Ronson-Uptown",
-							artist:"",
-							mp4: "video/Mark-Ronson-Uptown.mp4",
-							ogv: "video/Mark-Ronson-Uptown.ogv",
-							webmv: "video/Mark-Ronson-Uptown.webm",
-							poster:"video/play2.png"
-						},
-						{
-							title:"2. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"3. Maroon-Sugar",
-							artist:"",
-							mp4: "video/Maroon-Sugar.mp4",
-							ogv: "video/Maroon-Sugar.ogv",
-							webmv: "video/Maroon-Sugar.webm",
-							poster:"video/play4.png"
-						},
-						{
-							title:"4. Pharrell-Williams",
-							artist:"",
-							mp4: "video/Pharrell-Williams.mp4",
-							ogv: "video/Pharrell-Williams.ogv",
-							webmv: "video/Pharrell-Williams.webm",
-							poster:"video/play5.png"
-						},
-						{
-							title:"5. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"6. Pharrell-Williams",
-							artist:"",
-							mp4: "video/Pharrell-Williams.mp4",
-							ogv: "video/Pharrell-Williams.ogv",
-							webmv: "video/Pharrell-Williams.webm",
-							poster:"video/play5.png"
-						}
-					], {
-						swfPath: "../../dist/jplayer",
-						supplied: "webmv,ogv,mp4",
-						useStateClassSkin: true,
-						autoBlur: false,
-						smoothPlayBar: true,
-						keyEnabled: true
-					});
+var playlistTwo = [{
+"file": "/video/Taylor-Swift.mp4", 
+"image":"/video/play3.png", 
+"title": "taylor swift"
+}];
 
-				});
-				//]]>
-					       </script>
+var playlistThree = [{
+"file":"/video/Maroon-Sugar.mp4", 
+"image":"/video/play4.png", 
+"title": "Elephant's Dream"
+}];
+                            var playlistFour = [{
+"file":"//content.jwplatform.com/videos/kaUXWqTZ-640.mp4", 
+"image":"//content.jwplatform.com/thumbs/kaUXWqTZ-640.jpg", 
+"title": "Elephant's Dream"
+}];
+                            jwplayer("jp_container_1").setup({
+                                flashplayer: "js/jwplayer.flash.swf",
+                                file: "video/Mark-Ronson-Uptown.mp4",
+                                image:"video/play2.png",
+                                width: "100%",
+                                aspectratio: "12:5",
+                                skin: {
+                                name: "vapor"
+                                    },
+                                autostart:'true',
+                                repeat:'true',
+                                displaytitle:'true',
+                                stretching:'exactfit',
+	                           //  The Controlbar is over by default, but can be set to bottom, top, over, and none  
+	                           controlbarposition:'bottom',
+	                       //  Item(0) sets the autostart function to a particular video, 0 being the first 
+	                           item:'4',
+	                           //  Position of the playlist. Can be set to bottom, top, right, left, over or none. 
+	                           //  If it is set to over, the playlist will appear after the videos have all been played 
+	                           //  If it is set to bottom, the height of the player will need to be adjusted
+	                   playlistposition: 'bottom',
+	                   playlistsize: '500',
+	                   // The Position and Size are not necessary, but without them, it will just cycle through without being able to go forward or backwards
+	                 
+                           
+                            });
+                            function loadPlaylist(thePlaylist) {
+	jwplayer().load(thePlaylist)
+}
+                        </script>
+
 			<!-- //script for play-list -->
                  
                     
                    
                         </div>
-                        <div class="clearfix"></div>
+                        <div class="container">
+                               <div class="row">
+                                   <div class="col-md-12 owl-me">
+                                        <div id="owl-example1" class="owl-carousel">
+                                <div class="item"><a href="javascript:loadPlaylist(playlistOne)"><img class="lazyOwl img-responsive" src="video/play2.png" alt="Lazy Owl Image"></a></div>
+                                            <div class="item"><a href="javascript:loadPlaylist(playlistTwo)"><img class="lazyOwl img-responsive" src="video/play3.png" alt="Lazy Owl Image"></a></div>
+                                    <div class="item"><a href="javascript:loadPlaylist(playlistThree)"><img class="lazyOwl img-responsive" src="video/play4.png" alt="Lazy Owl Image"></a></div>
+                                <div class="item"><a href="javascript:loadPlaylist(playlistFour)"><img class="lazyOwl img-responsive" src="video/play5.png" alt="Lazy Owl Image"></a></div>
+                                    <div class="item"><a href="javascript:loadPlaylist(playlistFive)"><img class="lazyOwl img-responsive" src="video/play6.png" alt="Lazy Owl Image"></a></div>
+                                    <div class="item"><a href="javascript:loadPlaylist(playlistSix)"><img class="lazyOwl img-responsive" src="video/play1.png" alt="Lazy Owl Image"></a></div>
+                                </div></div></div></div>
+                       
                     </div>
                 </div>
 			  <!--body wrapper end-->
@@ -232,5 +182,35 @@
 <script src="js/scripts.js"></script>
 <!-- Bootstrap Core JavaScript -->
    <script src="js/bootstrap.min.js"></script>
+     <!-- Owl carousel JavaScript -->
+   <script src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">    
+$(document).ready(function() {
+ 
+	$("#owl-example1, #owl-example").owlCarousel({
+		 loop: true,
+  margin: 10,
+        lazyload:true,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 4
+    }
+  }
+})
+});
+</script> 
 </body>
 </html>

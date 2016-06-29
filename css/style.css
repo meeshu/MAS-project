@@ -1392,147 +1392,57 @@ div.jp-type-playlist div.jp-playlist a:hover {
     color:#fff!important;
 	    background: #45B39D!important;
 }
-/*--//video--*/
-/*--//pricing_table--*/
-.pricing {
-    float: left;
-    width: 49%;
-    text-align: center;
-    margin-left:0;
-}
-.pricing-table {
-    margin: 5% auto 0 auto;
-    width: 65%;
-}
-.price-top h3 {
-    font-size: 3em;
-    font-weight: 700;
-    color: #fff;
-}
-.price-top h4 {
-    font-size: 1.2em;
-    color: #fff;
-    font-weight: 700;
-}
-.price-top {
-    background: none;
-    padding: 1em;
-    border-radius: 0.4em 0.4em 0em 0em;
-    -webkit-border-radius: 0.4em 0.4em 0em 0em;
-    -o-border-radius: 0.4em 0.4em 0em 0em;
-    -moz-border-radius: 0.4em 0.4em 0em 0em;
-    border: 1px solid #ff6633;
-}
-.price-bottom h3 {
-    font-size: 2.5em;
-    color: #333;
-}
-.price-bottom p {
-    font-size: .9em;
-    text-transform: uppercase;
-    color: #999;
-	margin-bottom: .8em;
-}
-.price-bottom ul {
-    padding: 0;
-}
-.price-bottom ul li {
-       font-size: 1em;
-    line-height: 1.9em;
-    padding: .3em 0.5em;
-    font-weight: 400;
-}
-a.price {
-    font-size: .9em;
-    text-transform: uppercase;
-    padding: .6em 1em;
-    background: #ff6633;
-    color: #fff;
-    display: block;
-    width: 57%;
-    margin: 0.5em auto 0.6em;
-    border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-    font-weight:400;
-	    text-decoration: none;
-}
-.pricing:hover a.price {
-  	transition:transform 0.3s;
-	-o-transition: transform 0.3s;
-	-webkit-transition:-webkit-transform 0.3s;
-    -moz-transition:-moz-transform 0.3s;
-	background:#45B39D;
-}
-.price-bottom {
-	padding:1em 0;
-    border: 1px solid #ff6633;
-    border-top: none;
-	    border-radius: 0em 0em 0.3em 0.3em;
-    -webkit-border-radius: 0em 0em 0.3em 0.3em;
-    -o-border-radius: 0em 0em 0.3em 0.3em;
-    -moz-border-radius: 0em 0em 0.3em 0.3em;
+/* jw player */
+/* Add your CSS here
+Below are examples for how to customize the player skin
+*/
+
+
+/* Set the global Background color of the player elements */
+.jw-skin-seven .jw-background-color {
+	background: #0e4d8f !important;
 }
 
-.pricing.two{
-	margin-left:2%;
+/* Changes ONLY the color of the duration text in the controlbar */
+.jw-skin-seven .jw-text-duration {
+	color: rgba(255,255,255,.5) !important;
 }
-.price-section{
-	background: #222;
-   padding: 3em 2em;
-	    border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
+
+/* Changes ONLY the color of the buffer bar in the timeslider */
+.jw-skin-seven .jw-buffer {
+	background: rgba(255,255,255,.5) !important; 
 }
-.price-bottom ul li {
-    list-style: none;
-}
-a.icon {
-    float: left;
-	    width: 17%;
-}
-a.text {
-    float: right;
-    width: 77%;
-    text-align: left;
-	color:#858B94;
-}
-a.text:hover{
-text-decoration:none;
-}
-i.glyphicon.glyphicon-ok {
-    color: #ff6633;
-    font-size: 1em;
-    padding-left: 10px;
-}
-i.glyphicon.glyphicon-remove {
-    color: #DE2C2C;
-    font-size: 1.3em;
-}
-h3.hd-tittle {
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.6em;
-    margin-bottom: 1em;
-}
+
+/*--//video--*/
 /*--//pricing_table--*/
-.apps {
-    background: #222;
-    padding: 2.3em 2em;
-    border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-    margin: 1.4em 0;
+.owl-carousel .owl-item .item{padding:5px;;
+position: relative; /* fix blank or flashing items on carousel */
+  z-index: 100; /* fix blank or flashing items on carousel */
+  -webkit-backface-visibility: hidden; /* fix blank or flashing items on carousel */}
+.owl-carousel .owl-item .item:hover{-webkit-animation: tada 1s;
+    animation: tada 1s;}
+.owl-carousel .owl-item img{width:100%; height:auto; display:block;}
+
+.owl-me {margin: 60px auto;
+    left:-18px;
+  padding: 0 5%;
+    width:80%
+    position: relative;
 }
-.banner-button {
-    float: left;
-       width: 45.8%;
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
 }
-.green-button {
-    margin: 0 1em;
+.owl-nav i {
+  font-size: 52px;
+}
+.owl-nav .owl-prev {
+  left: -30px;
+}
+.owl-nav .owl-next {
+  right: -30px;
 }
 /*--//music_right--*/
 /*--//albums--*/
